@@ -2,7 +2,7 @@
 int main(){
 
     int nota1, nota2, nota3;
-    int media;
+    float media;
 
     // Entrada e saida de dados
 
@@ -14,12 +14,11 @@ int main(){
 
     printf("Insira a terceira nota: ");
     scanf("%d", &nota3);
-
     // Calculando a média
 
-    media = (float) (nota1 + nota2 + nota3) / 3;
+    media = (float)(nota1 + nota2 + nota3) / 3;
     
-    printf("A média das notas é : %f\n", media);
+    printf("A média das notas é : %.2f\n", media);
 
     return 0;
 }
