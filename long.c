@@ -6,7 +6,7 @@ int main(){
         long int numeroGrande = 2147483647;
 
         printf("Numero regular (int): %d\n", numeroNormal);
-        printf("Numero grande (long int): %ld\n");
+        printf("Numero grande (long int): %ld\n", numeroGrande);
 
         return 0;
 
