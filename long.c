@@ -8,6 +8,9 @@ int main(){
         printf("Numero regular (int): %d\n", numeroNormal);
         printf("Numero grande (long int): %ld\n", numeroGrande);
 
+        numeroGrande = 2147483648; // Valor maior que o máximo de int
+        printf("Número grande atualizado (long int): %ld\n", numeroGrande);
+
         return 0;
 
 
