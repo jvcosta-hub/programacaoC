@@ -19,13 +19,13 @@ Instale um compilador: Primeiro, você precisa de um compilador C. Uma opção p
 
 Compile o código: Abra o terminal ou prompt de comando e navegue até o diretório onde seu arquivo está salvo. Use o seguinte comando para compilar:
 
-gcc meuprograma.c -o xadrez.c
-Isso criará um arquivo executável chamado meuprograma.
+gcc xadrez.c -o xadrez
+Isso criará um arquivo executável chamado xadrez.
 
 Execute o programa: Depois de compilar, você pode executar o programa com o seguinte comando:
 
 No Linux ou macOS:
-./xadrez.c
+./xadrez
 No Windows:
 xadrez.exe
 Verifique a saída: Depois de executar, você verá a saída do seu programa no terminal.
