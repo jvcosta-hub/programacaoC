@@ -1,4 +1,5 @@
 Explicação do Código:
+
 Inicialização do Tabuleiro: A matriz tabuleiro é preenchida com zeros para representar água.
 Funções de Posicionamento: Existem funções para verificar se é possível colocar os navios em diferentes orientações e posições.
 Validação de Sobreposição: As funções garantem que os navios não se sobreponham.
